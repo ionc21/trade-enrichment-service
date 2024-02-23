@@ -15,7 +15,7 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-## Instructions for use
+## CURL request
 - Enrich trade data with product names
 ```shell
 curl --request POST -F file=@{trade.csv file location} http://localhost:8082/api/v1/enrich --header 'Content-Type:text/csv' --header 'Accept:text/csv'
