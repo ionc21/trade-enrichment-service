@@ -1,0 +1,12 @@
+spring:
+  threads:
+    virtual:
+      enabled: true
+server:
+  port: 8082
+
+#custom
+product:
+  source:
+    path: src/test/resources/product.csv
+
